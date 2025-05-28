@@ -12,7 +12,7 @@ const About = () => {
           </h2>
           <p className="text-slate-300 text-lg max-w-3xl mx-auto">
             Passionate Computer Science student with a strong foundation in competitive programming 
-            and software development. Currently pursuing B.Tech at MNNIT Allahabad with a CPI of 8.62.
+            and software development. Currently pursuing B.Tech at MNNIT Allahabad.
           </p>
         </div>
 

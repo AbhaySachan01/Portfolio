@@ -108,11 +108,11 @@ const CodingProfiles = () => {
             <div className="flex justify-center space-x-8 text-center">
               <div>
                 <div className="text-2xl font-bold text-green-400">LeetCode</div>
-                <div className="text-slate-400">Knight Level</div>
+                <div className="text-slate-400">Knight</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-amber-400">CodeChef</div>
-                <div className="text-slate-400">4-Star Rating</div>
+                <div className="text-slate-400">4-Star Rated</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-cyan-400">Codeforces</div>

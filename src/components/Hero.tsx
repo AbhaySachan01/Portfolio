@@ -1,8 +1,22 @@
-
 import React from 'react';
 import { Github, Linkedin, Mail, Code2 } from 'lucide-react';
+import { useTypewriter } from '../hooks/useTypewriter';
 
 const Hero = () => {
+  const roles = [
+    'Competitive Programmer',
+    'Software Developer',
+    'Problem Solver',
+    'Tech Enthusiast'
+  ];
+
+  const typewriterText = useTypewriter({
+    words: roles,
+    typeSpeed: 120,
+    deleteSpeed: 50,
+    delaySpeed: 1500,
+  });
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Animation */}
@@ -19,9 +33,13 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
             Computer Science Engineering Student at MNNIT Allahabad
           </p>
-          <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto">
-            Competitive Programmer • Software Developer • Problem Solver
-          </p>
+         <div className="text-slate-400 mb-8 max-w-2xl mx-auto h-12 flex items-center justify-center">
+          <span className="text-2xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 font-semibold">
+            {typewriterText}
+          </span>
+          <span className="animate-pulse ml-1 text-2xl md:text-4xl text-blue-400">|</span>
+        </div>
+
           
           <div className="flex justify-center space-x-6 mb-12">
             <a

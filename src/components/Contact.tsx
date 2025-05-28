@@ -123,13 +123,13 @@ const Contact = () => {
         </div>
 
         {/* Student Information */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="bg-slate-900/50 border border-slate-700 rounded-xl p-6 max-w-md mx-auto">
             <h4 className="text-lg font-semibold text-white mb-2">Student Information</h4>
             <p className="text-slate-300">Reg No.: 20233008</p>
             <p className="text-slate-300">MNNIT Allahabad</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
