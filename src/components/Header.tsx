@@ -18,9 +18,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-700">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-white">
+          <div className="text-2xl font-bold text-white cursor-pointer">
+          <a href="#" className="hover:text-green-400 transition-colors duration-300">
             Abhay<span className="text-blue-400">Sachan</span>
-          </div>
+          </a>
+        </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

@@ -17,7 +17,7 @@ const CodingProfiles = () => {
       platform: "CodeChef",
       username: "abhay_sachan",
       title: "4-Star",
-      maxRating: 1887,
+      maxRating: 1891,
       description: "High-rated competitive programmer",
       color: "brown",
       link: "https://codechef.com/users/abhay_sachan"
